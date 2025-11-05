@@ -9,22 +9,95 @@ text-decoration: none;
 
 .supp-puces{list-style-type:none;}  /* supprimer les puces*/
 
+
+
+.btn{
+    background-color: rgb(6, 14, 20);
+    border-radius: 5px;
+    color: rgb(253, 252, 251);
+    padding:5px 15px;
+    display: inline-block;
+}
+
+
+.container-1000{
+max-width: 1000px;
+margin: auto;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.container-1200{
+    max-width: 1200px;
+    background-color: rgb(177, 82, 82);
+    margin: auto;
+}
+
+.margin-top-100{
+    margin-top: 100px;
+}
+
+h2{ 
+
+}
+/*CLasses fonctionnelles Flex Box*/
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify-center { justify-content: center;}
+
+.space-between{
+    justify-content: space-between;
+}
+.space-around{
+    justify-content: space-around;
+}
+.align-center {
+    align-items: center;
+}
+
+/*Classes de dimensions*/
+
+.w-100 {width:100%;}
+.w-50 {width: 50%;}
+.w-33{width: 33%;}
+.w-25 {width: 25%;}
+
+/*Placements de texte*/
+
+.txt-centre{
+    text-align: center;   /*aligner le texte au centre de la page*/
+}
+
+
+/* mes classes */
+
+
+/* HEADER*/
+
+header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .logo{
     width: 90px;
 }
 
 
-/*Placements de texte*/
+/* SECTION 1*/
 
-.aligner{
-    text-align: center;   /*aligner le texte au centre de la page*/
-}
+/* SECTION 2*/
 
-.centrer-txt{
-align-items: center;
-}
-.wrap{ flex-wrap:wrap;}
+/* SECTION 3*/
 
-.droite-page{
-    justify-content:flex-end
-}
+/* SECTION 4*/
+
+/* SECTION 5*/
+
+/* SECTION 6*/
+
+/* FOOTER*/
