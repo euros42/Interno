@@ -1,0 +1,89 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+.bg-yellow {background-color: yellow;}
+
+.padding-50 {padding: 40px 20px 40px 20px;
+}
+
+.largeur40{
+    width: 40%;
+}
+.enligne{
+    display: inline-block;
+}
+.MargBot-30{
+margin-bottom: 40px}
+
+.test {display: inline-block;}
+
+.pink {background-color: pink;}
+
+
+.bgvert{
+    background-color: #61ff7b;
+}
+.bgbleu{
+    background-color: #1398a0 ;
+}
+.bouton{
+    border: radius 200px;
+   
+
+}
+
+.bordnoir{border: solid 3px black}
+
+
+.pointilles{border-style: dashed 5px black;}
+
+.txt-blanc{
+    color: white;
+}
+
+.arrondir{
+    border-radius: 50px 50px 50px 50px / 50px 50px 50px 50px;
+}
+.arrondir-mid{
+    border-radius: 10px 100px / 120px;
+}
+
+.txt-gras {
+    font-weight: bold;
+}
+.txt-fin{
+    font-weight: lighter ;
+}
+.forme-rond {border-radius: 10% / 50%;}
+
+.radius-10 {
+    border-radius: 10px;
+}
+.radius-300 {border-radius: 300px;}
+
+.radius-bizzare{border-radius:0px 20px;}
+.bordersolide{border:solid black 3px;}
+.a{
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline;
+}
+
+
+.card{
+    width:30%;
+    padding:16px;
+    border-radius :20px;
+    box-shadow: 5px 5px 16px black;
+}
+.card h3{
+    margin: top 16px;
+}
+.card p {
+    margin-top: 16px;
+    margin-bottom:;
+}
